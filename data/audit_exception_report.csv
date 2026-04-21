@@ -1,0 +1,4 @@
+order_id,expected_amount,order_date,total_paid,transaction_count,diff_amount,issue_type
+ORD005,88.0,2025-01-01,80.0,1.0,-8.0,实付金额小于应付
+ORD006,500.0,2025-01-01,0.0,,-500.0,支付网关漏单 (用户未付款)
+ORD099,0.0,,150.0,1.0,150.0,ERP系统漏单 (幽灵支付)
